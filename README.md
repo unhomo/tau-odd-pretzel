@@ -3,10 +3,13 @@
 Numerical verification of the conjectured formula
 
 $$
-2\tau(\text{P}(a_{1}, ..., a_{n})) = -\sum_{i}\text{sign}(a_{i}) + \text{sign}(a_{\min})
+2\tau(\text{P}(a_{1}, \ldots, a_{n})) = -\sum_{i}\text{sign}(a_{i}) + \text{sign}(a_{\min})
 $$
 
-for the Ozsváth–Szabó tau-invariant of odd pretzel knots.
+for the Ozsváth–Szabó tau-invariant of odd pretzel knots, where
+$a_{\min}$ is the parameter of minimal absolute value in the multiset
+obtained from the multiset $\lbrace a_{1}, \ldots, a_{n} \rbrace$ by iteratively removing
+pairs of the form $\lbrace t, -t \rbrace$ until no such pair remains.
 
 Companion code for the paper *Explicit formula for the Rasmussen invariant of
 odd pretzel knots* by Yury Belousov and Vadim Stepaniuk.
