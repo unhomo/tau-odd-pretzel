@@ -10,13 +10,7 @@ from pathlib import Path
 from typing import Iterable, Iterator
 
 import knot_floer_homology as kfh
-
-try:
-    from pretzel_pd import tangle_points, pretzel_pd_2
-except ImportError:
-    sys.exit(
-        "pretzel_pd not found. See README for installation instructions."
-    )
+from pretzel_pd import tangle_points, pretzel_pd_2
 
 Params = tuple[int, ...]
 
